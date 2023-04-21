@@ -2,7 +2,6 @@
 #include <thread>
 #include <memory>
 #include <mutex>
-#include <Windows.h>
 
 class ThreadSpawner
 {
@@ -20,8 +19,6 @@ public:
     void callback()
     {
         std::lock_guard<std::mutex> lock(this->threadMutex);
-        std::cout<<"The callback function is active"<<std::endl;
-        Sleep(500);
     }
 
 
