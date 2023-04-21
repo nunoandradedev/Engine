@@ -1,0 +1,10 @@
+^C:\USERS\NUNO2\DEVELOPMENT\ENGINE\BUILD\CMAKEFILES\289247F39DCA4C9EDC4E19D9B3A26E6B\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/nuno2/development/Engine -BC:/Users/nuno2/development/Engine/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/nuno2/development/Engine/build/Engine.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
