@@ -8,9 +8,11 @@
 ## Generate build files and build the project
 
 - Open command prompt (or terminal) in the root directory of the project
-- Run the commands: cmake -B ./build
-					cmake --build ./build
-
+- Run the commands: 
+'''console
+cmake -B ./build
+cmake --build ./build
+'''
 
 ## Run the project
 
