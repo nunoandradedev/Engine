@@ -24,7 +24,7 @@ cmake --build ./build
 - Note: Before building a docker image of this dockerfile, the build folder must be deleted.
 
 - Open command prompt (or terminal) in the root directory of the project
-- Make is docker installed by running:
+- Make sure docker is installed by running:
 ```console
 docker --version
 ```
@@ -35,5 +35,5 @@ docker build -t engine .
 
 ## Next features
 
-- Docker support (Done)
+- Build with Docker (Done)
 
