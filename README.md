@@ -9,10 +9,10 @@
 
 - Open command prompt (or terminal) in the root directory of the project
 - Run the commands: 
-'''console
+```console
 cmake -B ./build
 cmake --build ./build
-'''
+```
 
 ## Run the project
 
