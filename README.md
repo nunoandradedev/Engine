@@ -3,7 +3,7 @@
 
 ## Prerequisites
 - CMake installed
-- Empty "build" folder created in the root directory of the project (same directory as CMakeLists.txt)
+- Empty "build" folder created in the root directory of the project (not mandatory as CMake creates the directory if it doesn't exist)
 
 ## Generate build files and build the project
 
